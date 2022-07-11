@@ -1,0 +1,19 @@
+{
+  "name": "api---the-movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoniolml/Api---The-movie.git"
+  },
+  "author": "Marco Palacios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antoniolml/Api---The-movie/issues"
+  },
+  "homepage": "https://github.com/Antoniolml/Api---The-movie#readme"
+}
