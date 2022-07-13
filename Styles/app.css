@@ -87,6 +87,10 @@ button {
   cursor: pointer;
 }
 
+img{
+  height: 235px;
+}
+
 /* Shared */
 
 .header_container, .trendingPreview_header, .categoriesPreview_container{
@@ -115,6 +119,14 @@ button {
   justify-content: space-between;
   position: relative;
   flex-wrap: wrap;
+}
+
+.categorypreview_list1{
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  
 }
 
 /* Header */
