@@ -12,8 +12,8 @@
 
   <header id="header" class="header_container">
     <span class="header_arrow inactive">&lt;</span>
+    <h1 class="header_title" >MOVIES</h1>
     <h1 class="header_title header_title--categoryView inactive">Movies</h1>
-    <h1 >Acción</h1>
 
     <form id="searchForm" class="header_searchForm">
       <input type="text" placeholder="vengadores" />
@@ -38,11 +38,13 @@
     </article>
   </section>
   <template id="movie_container">
-    <img  
-        class="movie_img"
-        
-        alt="Nombre de la película"
-        />
+    <div class="movie_container">
+      <img  
+          class="movie_img"
+          
+          alt="Nombre de la película"
+          />
+    </div>
   </template>
 
   <section id="categoriesPreview" class="categoriesPreview_container">
@@ -61,24 +63,20 @@
   </template>
 
   <section id="genericList" class="genericList_container">
-    <div class="movie_container">
+    <!-- <div class="movie_container">
       <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
       class="movie_img" 
       alt="Nombre de la película">
-    </div>
+    </div> -->
 
-    <div class="movie_container">
-      <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-      class="movie_img" 
-      alt="Nombre de la película">
-    </div>
-
-    <div class="movie_container">
-      <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-      class="movie_img" 
-      alt="Nombre de la película">
-    </div>
+    <div></div>
   </section>
+  <template class="movie_container" id="movie_container">
+    <div class="movie_container">
+      <img  class="movie_img" alt="Nombre de la película">
+    </div>
+      
+  </template>
 
   <section id="movieDetail" class="movieDetail_container inactive">
     <h1 class="movieDetail_title">Deadpool</h1>
@@ -99,23 +97,28 @@
       </div>
     </article>
 
-    <article class="relatedMovies_scrollContainer">
-      <div class="movie_container">
-        <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-        class="movie_img"
-        alt="Nombre de la película">
-      </div>
+    <article class="relatedMovies_container">
+      <h2 class="relatedMovies_title">Películas similares</h2>
 
-      <div class="movie_container">
+      <div class="relatedMovies_scrollContainer">
+        <div class="movie_container">
         <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
         class="movie_img"
         alt="Nombre de la película">
-      </div>
+        </div>
 
-      <div class="movie_container">
+        <div class="movie_container">
         <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
         class="movie_img"
         alt="Nombre de la película">
+        </div>
+
+        <div class="movie_container">
+        <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+        class="movie_img"
+        alt="Nombre de la película">
+        </div>
+        
       </div>
     </article>
   </section>

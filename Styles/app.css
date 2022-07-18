@@ -63,6 +63,8 @@ h2{
 h3{
   color: var(--purple-dark-2);
   font-weight: var(--font-weight-text2);
+  font-size: 16px;
+
 }
 
 input {
@@ -87,9 +89,7 @@ button {
   cursor: pointer;
 }
 
-img{
-  height: 235px;
-}
+
 
 /* Shared */
 
@@ -107,6 +107,7 @@ img{
 
 .movie_container{
   cursor: pointer;
+
 }
 
 .movie_img{
@@ -115,10 +116,14 @@ img{
 
 .categoriesPreview_list, .categories_list{
   display: flex;
-  align-items: center;
+ /*  align-items: center;
   justify-content: space-between;
   position: relative;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  
 }
 
 .categorypreview_list1{
